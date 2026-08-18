@@ -29,12 +29,14 @@ first word.
 
 ## Agent avatar
 
-<img align="top" valign="top" alt="Agent" title="Agent" width="20" height="20" src="https://raw.githubusercontent.com/ssivov/severity-chips/main/agent.png">&nbsp;Agent (on @handle's behalf)
+<picture><img align="top" valign="top" alt="Agent" title="Agent" width="20" height="20" src="https://raw.githubusercontent.com/ssivov/severity-chips/main/agent.png"></picture>&nbsp;Agent (on @handle's behalf)
 
 The avatar that opens an agent-disclosure line. It is a 40x40 transparent PNG
 rendered at 20px — the chip height — so it sits like an emoji in the sentence
-and stays crisp on high-density displays. One file serves both themes.
+and stays crisp on high-density displays. One file serves both themes. The
+`<picture>` wrapper is required: GitHub gives a bare inline image a tinted,
+rounded frame and turns it into a link.
 
 ```html
-<img align="top" valign="top" alt="Agent" title="Agent" width="20" height="20" src="https://raw.githubusercontent.com/ssivov/severity-chips/main/agent.png">&nbsp;
+<picture><img align="top" valign="top" alt="Agent" title="Agent" width="20" height="20" src="https://raw.githubusercontent.com/ssivov/severity-chips/main/agent.png"></picture>&nbsp;
 ```
