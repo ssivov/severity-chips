@@ -26,3 +26,15 @@ first word.
 <!-- Minor -->
 <a><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ssivov/severity-chips/main/minor_dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ssivov/severity-chips/main/minor_light.svg"><img align="top" valign="top" alt="Minor" title="Minor" src="https://raw.githubusercontent.com/ssivov/severity-chips/main/minor_light.svg"></picture></a>&nbsp;&nbsp;
 ```
+
+## Agent avatar
+
+<img align="top" valign="top" alt="Agent" title="Agent" width="20" height="20" src="https://raw.githubusercontent.com/ssivov/severity-chips/main/agent.png">&nbsp;Agent (on @handle's behalf)
+
+The avatar that opens an agent-disclosure line. It is a 40x40 transparent PNG
+rendered at 20px — the chip height — so it sits like an emoji in the sentence
+and stays crisp on high-density displays. One file serves both themes.
+
+```html
+<img align="top" valign="top" alt="Agent" title="Agent" width="20" height="20" src="https://raw.githubusercontent.com/ssivov/severity-chips/main/agent.png">&nbsp;
+```
